@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:
+        Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://t3.ftcdn.net/jpg/02/16/47/84/360_F_216478440_EeaM0VLz797fdhj6SexMZoRUIQvy21N7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.converter-row {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    background: url('https://img.freepik.com/free-vector/mathematical-geometric-background-vector-gradient-blue-education-remix_53876-114100.jpg?w=996&t=st=1694013663~exp=1694014263~hmac=92bd0df3b7075cdfcee5c60af22fc41d9395104249087a25aa84f440171577ea');
+    border-radius: 10px;
+    padding: 100px 10px;
+}
+
+.col {
+    flex-basis: 32%;
+    text-align: center;
+}
+
+.col label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.col input {
+    width: 150px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
